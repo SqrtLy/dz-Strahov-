@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Форма заявки на обучение в нашем учебном центре. Заполните форму для записи на курсы программирования.">
+    <title>Форма заявки - Учебный центр по программированию</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Учебный центр по программированию</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="working_hours.html">Режим работы</a></li>
+                <li><a href="about_center.html">О центре</a></li>
+                <li><a href="demand_for_programmers.html">Востребованность профессии</a></li>
+                <li><a href="application_form.html">Форма заявки</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Заполните форму заявки</h2>
+            <form action="#">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="course">Выберите курс:</label>
+                <select id="course" name="course">
+                    <option value="python">Python</option>
+                    <option value="java">Java</option>
+                    <option value="web">Веб-разработка</option>
+                </select>
+                <button type="submit">Отправить заявку</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Учебный центр по программированию</p>
+    </footer>
+</body>
+</html>
